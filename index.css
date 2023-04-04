@@ -101,3 +101,13 @@ li {
     background-color: #3d4852;
     border-radius: 3px;
 }
+
+img {
+    width : 450px;
+    height : 450px;
+    }
+
+.maps {
+    display: flex;
+    justify-content: center;
+}
