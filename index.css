@@ -1,24 +1,3 @@
-nav ul{ 
-    display: flex;
-    justify-content: center;
-    float: inline-start;
-    border:1px solid #000;
-    margin: 33px;
-
-}
-
-nav li:hover{ 
-    background: #f43c80;
-}
-#hero{
-    display: flex;
-}
-
-.menu li{
-    margin: 33px;
-
-}
-
 .carousel-items {
     display: flex;
     overflow-x: scroll;
@@ -65,4 +44,60 @@ nav li:hover{
 ::-webkit-scrollbar-thumb {
     background-color: #3d4852;
     border-radius: 3px;
+}
+
+nav ul{ 
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+.menu li{
+    padding: 13px;
+
+}
+nav li:hover{ 
+    background: #f43c80;
+}
+body, html {
+    height: 100%;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li :hover {
+    background-color: #111;
+  }
+
+/* The hero image */
+.hero-image {
+  background: url("img/AHN_0652_copie_1_c465621d-0f50-4d66-a76a-90e546e86d5d.jpg") center center/cover !important;
+  background-repeat: no-repeat !important;
+  height:45em !important;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
