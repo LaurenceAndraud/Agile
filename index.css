@@ -1,0 +1,20 @@
+nav ul{ 
+    display: flex;
+    justify-content: center;
+    float: inline-start;
+    border:1px solid #000;
+    margin: 33px;
+
+}
+
+nav li:hover{ 
+    background: #f43c80;
+}
+#hero{
+    display: flex;
+}
+
+.menu li{
+    margin: 33px;
+
+}
